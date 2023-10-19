@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+        <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h1>Calculadora de Áreas</h1>
+    <form method="post" action="area.php">
+        <label for="shape">Seleccione la figura:</label>
+        <select name="shape" id="shape" required>
+            <option value="circulo">Círculo</option>
+            <option value="cuadrado">Cuadrado</option>
+            <option value="rectangulo">Rectángulo</option>
+            <option value="triangulo">Triángulo</option>
+        </select>
+        <input type="submit" value="Calcular Área">
+    </form>
+    
+    <form method="get" action="menu.html">
+        <input type="submit" value="Volver al Menú">
+    </form>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+    <body>
+        <h1>Calculadora de Promedio de Notas</h1>
+        <form method="post" action="calcular_promedio.php">
+            <label for="materia">Nombre de la materia:</label>
+            <input type="text" name="materia" id="materia" required>
+            
+            <label for="cantidad">Cantidad de notas:</label>
+            <input type="number" name="cantidad" id="cantidad" required>
+            
+            <label for="minimo">Calificación mínima:</label>
+            <input type="number" name="minimo" id="minimo" required>
+            
+            <label for="maximo">Calificación máxima:</label>
+            <input type="number" name="maximo" id="maximo" required>
+            
+            <div class="notas">
+                <label for="valor-notas">Valor de las notas, por favor separelas por comas:</label>
+                <input type="text" name="valor-notas" id="valor-notas" required>
+            </div>
+            
+            <input type="submit" value="Calcular Promedio">
+        </form>
+        
+        <form method="get" action="menu.html">
+            <input type="submit" value="Volver al Menú">
+        </form>
+    </body>
+    </html>
+    
+    
